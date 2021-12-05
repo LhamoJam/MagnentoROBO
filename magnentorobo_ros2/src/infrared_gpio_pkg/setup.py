@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "infrared_pub_node = infrared_gpio_pkg.infrared_pub:main",
+            "infrared_sub_node = infrared_gpio_pkg.infrared_sub:main",
         ],
     },
 )

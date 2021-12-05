@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "camera_pub_node = camera_usb_pkg.camera_pub:main",
+            "camera_sub_node = camera_usb_pkg.camera_sub:main",
         ],
     },
 )

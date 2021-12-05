@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "imu_pub_node = imu_usb_pkg.imu_pub:main",
+            "imu_sub_node = imu_usb_pkg.imu_sub:main",
         ],
     },
 )

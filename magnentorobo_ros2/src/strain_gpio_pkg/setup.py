@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "strain_pub_node = strain_gpio_pkg.strain_pub:main",
+            "strain_sub_node = strain_gpio_pkg.strain_sub:main",
         ],
     },
 )
