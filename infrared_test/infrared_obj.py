@@ -1,1 +1,1 @@
-import serial
+import Jetson.GPIO as GPIO
