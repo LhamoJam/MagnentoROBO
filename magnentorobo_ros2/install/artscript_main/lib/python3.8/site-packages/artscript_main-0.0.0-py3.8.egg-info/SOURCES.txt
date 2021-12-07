@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/artscript_main/artscript_main.egg-info/PKG-INFO
+../../build/artscript_main/artscript_main.egg-info/SOURCES.txt
+../../build/artscript_main/artscript_main.egg-info/dependency_links.txt
+../../build/artscript_main/artscript_main.egg-info/entry_points.txt
+../../build/artscript_main/artscript_main.egg-info/requires.txt
+../../build/artscript_main/artscript_main.egg-info/top_level.txt
+../../build/artscript_main/artscript_main.egg-info/zip-safe
+artscript_main/__init__.py
+launch/robo_start.launch.py
+resource/artscript_main
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

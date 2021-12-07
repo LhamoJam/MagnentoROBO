@@ -1,0 +1,6 @@
+source;share/artscript_main/hook/pythonpath.ps1
+source;share/artscript_main/hook/pythonpath.dsv
+source;share/artscript_main/hook/pythonpath.sh
+source;share/artscript_main/hook/ament_prefix_path.ps1
+source;share/artscript_main/hook/ament_prefix_path.dsv
+source;share/artscript_main/hook/ament_prefix_path.sh

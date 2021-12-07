@@ -1,0 +1,20 @@
+[0.524s] Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/servo_pwm_pkg': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/servo_pwm_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/install.log --single-version-externally-managed
+[0.741s] running egg_info
+[0.742s] writing ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/PKG-INFO
+[0.743s] writing dependency_links to ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/dependency_links.txt
+[0.743s] writing entry points to ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/entry_points.txt
+[0.743s] writing requirements to ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/requires.txt
+[0.743s] writing top-level names to ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/top_level.txt
+[0.770s] reading manifest file '../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/SOURCES.txt'
+[0.771s] writing manifest file '../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/SOURCES.txt'
+[0.771s] running build
+[0.771s] running build_py
+[0.771s] running install
+[0.772s] running install_lib
+[0.773s] running install_data
+[0.774s] running install_egg_info
+[0.775s] removing '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages/servo_pwm_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.776s] Copying ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages/servo_pwm_pkg-0.0.0-py3.8.egg-info
+[0.782s] running install_scripts
+[0.797s] writing list of installed files to '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/install.log'
+[0.823s] Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/servo_pwm_pkg' returned '0': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/servo_pwm_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/install.log --single-version-externally-managed

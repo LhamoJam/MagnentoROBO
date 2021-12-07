@@ -1,0 +1,223 @@
+[0.013s] Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/strain_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/infrared_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/ARTScript_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg:/opt/ros/foxy /usr/bin/cmake /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces -DCMAKE_INSTALL_PREFIX=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces
+[0.034s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.060s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.208s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.213s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.357s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.457s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.556s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.557s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.578s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.579s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.579s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.579s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.595s] -- Found PythonExtra: .so  
+[0.629s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.646s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.648s] -- Added test 'lint_cmake' to check CMake code style
+[0.650s] -- Added test 'xmllint' to check XML markup files
+[0.654s] -- Configuring done
+[0.684s] -- Generating done
+[0.687s] -- Build files have been written to: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces
+[0.694s] Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/strain_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/infrared_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/ARTScript_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg:/opt/ros/foxy /usr/bin/cmake /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces -DCMAKE_INSTALL_PREFIX=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces
+[0.697s] Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/strain_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/infrared_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/ARTScript_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces -- -j4 -l4
+[0.765s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.772s] [35m[1mScanning dependencies of target artscript_interfaces__cpp[0m
+[0.830s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.103s] [35m[1mScanning dependencies of target artscript_interfaces__rosidl_generator_c[0m
+[1.115s] [  7%] [32mBuilding C object CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/msg/detail/imu__functions.c.o[0m
+[1.115s] [ 10%] [32mBuilding C object CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/msg/detail/infrared_strain__functions.c.o[0m
+[1.149s] [ 12%] [32m[1mLinking C shared library libartscript_interfaces__rosidl_generator_c.so[0m
+[1.164s] [ 12%] Built target artscript_interfaces__cpp
+[1.175s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.175s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.176s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.193s] [ 20%] Built target artscript_interfaces__rosidl_generator_c
+[1.213s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.539s] [35m[1mScanning dependencies of target artscript_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.552s] [ 25%] [32mBuilding CXX object CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/artscript_interfaces/msg/detail/imu__type_support.cpp.o[0m
+[1.574s] [35m[1mScanning dependencies of target artscript_interfaces__rosidl_typesupport_cpp[0m
+[1.584s] [35m[1mScanning dependencies of target artscript_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.655s] [ 30%] [32mBuilding CXX object CMakeFiles/artscript_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/artscript_interfaces/msg/imu__type_support.cpp.o[0m
+[1.655s] [ 30%] [32mBuilding CXX object CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[1.744s] [35m[1mScanning dependencies of target artscript_interfaces__rosidl_typesupport_introspection_c[0m
+[1.822s] [ 33%] [32mBuilding C object CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__type_support.c.o[0m
+[2.690s] [ 35%] [32mBuilding C object CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infrared_strain__type_support.c.o[0m
+[2.940s] [ 38%] [32mBuilding CXX object CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/artscript_interfaces/msg/detail/infrared_strain__type_support.cpp.o[0m
+[2.953s] [ 41%] [32m[1mLinking C shared library libartscript_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.999s] [ 43%] [32mBuilding CXX object CMakeFiles/artscript_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/artscript_interfaces/msg/infrared_strain__type_support.cpp.o[0m
+[3.014s] [ 43%] Built target artscript_interfaces__rosidl_typesupport_introspection_c
+[3.025s] [ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.305s] [35m[1mScanning dependencies of target artscript_interfaces__rosidl_typesupport_c[0m
+[3.322s] [ 48%] [32mBuilding CXX object CMakeFiles/artscript_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/artscript_interfaces/msg/imu__type_support.cpp.o[0m
+[3.397s] [ 51%] [32mBuilding CXX object CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/infrared_strain__type_support.cpp.o[0m
+[3.402s] [ 53%] [32mBuilding CXX object CMakeFiles/artscript_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/artscript_interfaces/msg/infrared_strain__type_support.cpp.o[0m
+[3.438s] [ 56%] [32m[1mLinking CXX shared library libartscript_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.520s] [ 58%] [32m[1mLinking CXX shared library libartscript_interfaces__rosidl_typesupport_c.so[0m
+[3.564s] [ 61%] [32m[1mLinking CXX shared library libartscript_interfaces__rosidl_typesupport_cpp.so[0m
+[3.692s] [ 61%] Built target artscript_interfaces__rosidl_typesupport_introspection_cpp
+[3.699s] [ 61%] Built target artscript_interfaces__rosidl_typesupport_cpp
+[3.734s] [ 61%] Built target artscript_interfaces__rosidl_typesupport_c
+[3.940s] [ 64%] [32m[1mLinking CXX shared library libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.073s] [ 64%] Built target artscript_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.084s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.365s] [35m[1mScanning dependencies of target artscript_interfaces__rosidl_typesupport_fastrtps_c[0m
+[4.379s] [ 71%] [32mBuilding CXX object CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/artscript_interfaces/msg/detail/imu__type_support_c.cpp.o[0m
+[4.379s] [ 71%] [32mBuilding CXX object CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/artscript_interfaces/msg/detail/infrared_strain__type_support_c.cpp.o[0m
+[4.685s] [ 74%] [32m[1mLinking CXX shared library libartscript_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.748s] [ 74%] Built target artscript_interfaces__rosidl_typesupport_fastrtps_c
+[4.757s] [35m[1mScanning dependencies of target artscript_interfaces[0m
+[4.766s] [ 74%] Built target artscript_interfaces
+[4.774s] [35m[1mScanning dependencies of target artscript_interfaces__py[0m
+[4.784s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.257s] [ 76%] Built target artscript_interfaces__py
+[5.270s] [35m[1mScanning dependencies of target artscript_interfaces__python[0m
+[5.304s] [ 79%] [32mBuilding C object CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_imu_s.c.o[0m
+[5.311s] [ 82%] [32mBuilding C object CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_infrared_strain_s.c.o[0m
+[5.443s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so[0m
+[5.497s] [ 84%] Built target artscript_interfaces__python
+[5.509s] [35m[1mScanning dependencies of target artscript_interfaces__rosidl_typesupport_c__pyext[0m
+[5.534s] [35m[1mScanning dependencies of target artscript_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[5.546s] [35m[1mScanning dependencies of target artscript_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.564s] [ 87%] [32mBuilding C object CMakeFiles/artscript_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.577s] [ 89%] [32mBuilding C object CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.583s] [ 92%] [32mBuilding C object CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.648s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/artscript_interfaces/artscript_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.666s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/artscript_interfaces/artscript_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.678s] [ 97%] Built target artscript_interfaces__rosidl_typesupport_c__pyext
+[5.739s] [ 97%] Built target artscript_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.740s] [100%] [32m[1mLinking C shared library rosidl_generator_py/artscript_interfaces/artscript_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.797s] [100%] Built target artscript_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.832s] Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/strain_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/infrared_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/ARTScript_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces -- -j4 -l4
+[5.955s] Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/strain_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/infrared_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/ARTScript_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces
+[5.966s] -- Install configuration: ""
+[5.967s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/ament_index/resource_index/rosidl_interfaces/artscript_interfaces
+[5.968s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces
+[5.976s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg
+[5.977s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/imu.h
+[5.977s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/infrared_strain.h
+[5.977s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail
+[5.977s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__functions.h
+[5.977s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__type_support.h
+[5.977s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__functions.h
+[5.977s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__type_support.h
+[5.978s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__functions.c
+[5.978s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__functions.c
+[5.978s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__struct.h
+[5.978s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__struct.h
+[5.978s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.978s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/environment/library_path.sh
+[5.979s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/environment/library_path.dsv
+[5.982s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_generator_c.so
+[5.982s] -- Set runtime path of "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_generator_c.so" to ""
+[5.982s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces
+[5.982s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg
+[5.982s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.983s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail
+[5.983s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[5.983s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__rosidl_typesupport_fastrtps_c.h
+[5.983s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.996s] -- Set runtime path of "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.996s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces
+[5.997s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg
+[5.997s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.997s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail
+[5.997s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__rosidl_typesupport_fastrtps_cpp.hpp
+[5.997s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/dds_fastrtps
+[5.997s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[5.998s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.998s] -- Set runtime path of "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.998s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces
+[5.999s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg
+[5.999s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.000s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail
+[6.000s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__type_support.c
+[6.000s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[6.000s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__rosidl_typesupport_introspection_c.h
+[6.001s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__type_support.c
+[6.001s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_typesupport_introspection_c.so
+[6.001s] -- Set runtime path of "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.001s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_typesupport_c.so
+[6.002s] -- Set runtime path of "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_typesupport_c.so" to ""
+[6.002s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces
+[6.002s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg
+[6.002s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail
+[6.002s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__traits.hpp
+[6.002s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__builder.hpp
+[6.003s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__struct.hpp
+[6.003s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__struct.hpp
+[6.003s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__builder.hpp
+[6.003s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__traits.hpp
+[6.003s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/imu.hpp
+[6.003s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/infrared_strain.hpp
+[6.003s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces
+[6.003s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg
+[6.003s] -- Up-to-date: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail
+[6.004s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__type_support.cpp
+[6.004s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__type_support.cpp
+[6.004s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/infrared_strain__rosidl_typesupport_introspection_cpp.hpp
+[6.004s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/include/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[6.004s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.004s] -- Set runtime path of "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.004s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_typesupport_cpp.so
+[6.004s] -- Set runtime path of "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.004s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/environment/pythonpath.sh
+[6.004s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/environment/pythonpath.dsv
+[6.004s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/__init__.py
+[6.050s] Compiling '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/__init__.py'...
+[6.059s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/msg
+[6.059s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/msg/__init__.py
+[6.059s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/msg/_infrared_strain_s.c
+[6.059s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/msg/_infrared_strain.py
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/msg/_imu_s.c
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/msg/_imu.py
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/artscript_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.060s] -- Set runtime path of "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/artscript_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/artscript_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.060s] -- Set runtime path of "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/artscript_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/artscript_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[6.060s] -- Set runtime path of "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages/artscript_interfaces/artscript_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__python.so
+[6.060s] -- Set runtime path of "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/libartscript_interfaces__python.so" to ""
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/msg/Imu.idl
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/msg/InfraredStrain.idl
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/msg/Imu.msg
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/msg/InfraredStrain.msg
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/ament_index/resource_index/package_run_dependencies/artscript_interfaces
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/ament_index/resource_index/parent_prefix_path/artscript_interfaces
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/environment/ament_prefix_path.sh
+[6.060s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/environment/ament_prefix_path.dsv
+[6.061s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/environment/path.sh
+[6.061s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/environment/path.dsv
+[6.061s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/local_setup.bash
+[6.061s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/local_setup.sh
+[6.061s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/local_setup.zsh
+[6.061s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/local_setup.dsv
+[6.061s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/package.dsv
+[6.061s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/ament_index/resource_index/packages/artscript_interfaces
+[6.062s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfaces__rosidl_generator_cExport.cmake
+[6.062s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.062s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.063s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.063s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfaces__rosidl_typesupport_cExport.cmake
+[6.063s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.064s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfaces__rosidl_generator_cppExport.cmake
+[6.064s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.064s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.065s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfaces__rosidl_typesupport_cppExport.cmake
+[6.065s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.065s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.066s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.066s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.067s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.067s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.067s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.068s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.069s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfacesConfig.cmake
+[6.070s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/cmake/artscript_interfacesConfig-version.cmake
+[6.072s] -- Installing: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/package.xml
+[6.078s] Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/strain_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/infrared_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/ARTScript_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces

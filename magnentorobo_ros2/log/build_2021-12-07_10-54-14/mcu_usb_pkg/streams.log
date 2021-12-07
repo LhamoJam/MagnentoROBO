@@ -1,0 +1,25 @@
+[0.204s] Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/mcu_usb_pkg': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mcu_usb_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/install.log --single-version-externally-managed
+[0.371s] running egg_info
+[0.371s] writing ../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/PKG-INFO
+[0.371s] writing dependency_links to ../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/dependency_links.txt
+[0.372s] writing entry points to ../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/entry_points.txt
+[0.372s] writing requirements to ../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/requires.txt
+[0.372s] writing top-level names to ../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/top_level.txt
+[0.397s] reading manifest file '../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/SOURCES.txt'
+[0.397s] writing manifest file '../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/SOURCES.txt'
+[0.397s] running build
+[0.398s] running build_py
+[0.398s] copying mcu_usb_pkg/mcu_pub.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/build/lib/mcu_usb_pkg
+[0.398s] running install
+[0.398s] running install_lib
+[0.399s] copying /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/build/lib/mcu_usb_pkg/mcu_pub.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages/mcu_usb_pkg
+[0.400s] byte-compiling /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages/mcu_usb_pkg/mcu_pub.py to mcu_pub.cpython-38.pyc
+[0.401s] running install_data
+[0.402s] running install_egg_info
+[0.405s] removing '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages/mcu_usb_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.405s] Copying ../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages/mcu_usb_pkg-0.0.0-py3.8.egg-info
+[0.405s] running install_scripts
+[0.417s] Installing mcu_pub_node script to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/mcu_usb_pkg
+[0.417s] Installing mcu_sub_node script to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/mcu_usb_pkg
+[0.417s] writing list of installed files to '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/install.log'
+[0.433s] Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/mcu_usb_pkg' returned '0': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mcu_usb_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/install.log --single-version-externally-managed

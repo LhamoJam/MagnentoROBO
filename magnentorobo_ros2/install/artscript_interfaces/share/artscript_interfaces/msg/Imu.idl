@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from artscript_interfaces/msg/Imu.msg
+// generated code does not contain a copyright notice
+
+
+module artscript_interfaces {
+  module msg {
+    typedef double double__3[3];
+    @verbatim (language="comment", text=
+      " artscript_imu")
+    struct Imu {
+      @verbatim (language="comment", text=
+        " x y z")
+      double__3 acceleration;
+
+      @verbatim (language="comment", text=
+        " x y z")
+      double__3 angular;
+
+      @verbatim (language="comment", text=
+        " x y z")
+      double__3 angle;
+    };
+  };
+};

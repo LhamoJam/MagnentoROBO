@@ -1,0 +1,406 @@
+[0.236s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.236s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7130e0d790>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7130e0d790>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7130e0dd00>)
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.240s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_interfaces) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_interfaces) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_interfaces) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_interfaces) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_interfaces) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_interfaces) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_interfaces) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_interfaces) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/artscript_interfaces' with type 'ros.ament_cmake' and name 'artscript_interfaces'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_main) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_main) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_main) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_main) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_main) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_main) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_main) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_main) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/artscript_main) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/artscript_main' with type 'ros.ament_python' and name 'artscript_main'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_usb_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_usb_pkg) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_usb_pkg) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_usb_pkg) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_usb_pkg) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_usb_pkg) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_usb_pkg) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_usb_pkg) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_usb_pkg) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_usb_pkg' with type 'ros.ament_python' and name 'camera_usb_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_usb_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_usb_pkg) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_usb_pkg) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_usb_pkg) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_usb_pkg) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_usb_pkg) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_usb_pkg) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_usb_pkg) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_usb_pkg) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_usb_pkg' with type 'ros.ament_python' and name 'imu_usb_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcu_usb_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcu_usb_pkg) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcu_usb_pkg) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcu_usb_pkg) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcu_usb_pkg) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcu_usb_pkg) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcu_usb_pkg) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcu_usb_pkg) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcu_usb_pkg) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mcu_usb_pkg' with type 'ros.ament_python' and name 'mcu_usb_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_pwm_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_pwm_pkg) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_pwm_pkg) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_pwm_pkg) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_pwm_pkg) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_pwm_pkg) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_pwm_pkg) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_pwm_pkg) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_pwm_pkg) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servo_pwm_pkg' with type 'ros.ament_python' and name 'servo_pwm_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'artscript_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'artscript_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'artscript_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'artscript_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'artscript_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'artscript_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'artscript_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'artscript_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'artscript_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'artscript_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces', 'merge_install': False, 'path': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'artscript_main' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'artscript_main' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'artscript_main' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'artscript_main' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'artscript_main' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'artscript_main' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'artscript_main' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'artscript_main' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'artscript_main' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'artscript_main' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main', 'merge_install': False, 'path': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_main', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'camera_usb_pkg' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'camera_usb_pkg' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'camera_usb_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'camera_usb_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'camera_usb_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'camera_usb_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'camera_usb_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'camera_usb_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'camera_usb_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'camera_usb_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg', 'merge_install': False, 'path': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/camera_usb_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'mcu_usb_pkg' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'mcu_usb_pkg' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'mcu_usb_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'mcu_usb_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'mcu_usb_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'mcu_usb_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'mcu_usb_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'mcu_usb_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'mcu_usb_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'mcu_usb_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg', 'merge_install': False, 'path': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/mcu_usb_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'servo_pwm_pkg' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'servo_pwm_pkg' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'servo_pwm_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'servo_pwm_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'servo_pwm_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'servo_pwm_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'servo_pwm_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'servo_pwm_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'servo_pwm_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'servo_pwm_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg', 'merge_install': False, 'path': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/servo_pwm_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'imu_usb_pkg' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'imu_usb_pkg' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'imu_usb_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'imu_usb_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'imu_usb_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'imu_usb_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'imu_usb_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'imu_usb_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'imu_usb_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'imu_usb_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/imu_usb_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg', 'merge_install': False, 'path': '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/imu_usb_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.286s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.287s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.288s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces' with build type 'ament_cmake'
+[0.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces'
+[0.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.295s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.301s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_main' with build type 'ament_python'
+[0.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('artscript_main', 'ament_prefix_path')
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main/hook/ament_prefix_path.ps1'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main/hook/ament_prefix_path.dsv'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main/hook/ament_prefix_path.sh'
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.315s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/camera_usb_pkg' with build type 'ament_python'
+[0.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_usb_pkg', 'ament_prefix_path')
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/camera_usb_pkg/hook/ament_prefix_path.ps1'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/camera_usb_pkg/hook/ament_prefix_path.dsv'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/camera_usb_pkg/hook/ament_prefix_path.sh'
+[0.318s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.321s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/mcu_usb_pkg' with build type 'ament_python'
+[0.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('mcu_usb_pkg', 'ament_prefix_path')
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/share/mcu_usb_pkg/hook/ament_prefix_path.ps1'
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/share/mcu_usb_pkg/hook/ament_prefix_path.dsv'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/share/mcu_usb_pkg/hook/ament_prefix_path.sh'
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces -- -j4 -l4
+[0.539s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_main'
+[0.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.541s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.725s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/camera_usb_pkg'
+[0.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.727s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.903s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/mcu_usb_pkg'
+[0.904s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.906s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces -- -j4 -l4
+[0.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_main': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/artscript_main build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/install.log --single-version-externally-managed
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/camera_usb_pkg': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_usb_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/install.log --single-version-externally-managed
+[0.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/mcu_usb_pkg': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mcu_usb_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/install.log --single-version-externally-managed
+[1.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces
+[1.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(artscript_interfaces)
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces' for CMake module files
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces' for CMake config files
+[1.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('artscript_interfaces', 'cmake_prefix_path')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/cmake_prefix_path.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/cmake_prefix_path.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/cmake_prefix_path.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib'
+[1.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('artscript_interfaces', 'ld_library_path_lib')
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/ld_library_path_lib.ps1'
+[1.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/ld_library_path_lib.dsv'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/ld_library_path_lib.sh'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/bin'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/pkgconfig/artscript_interfaces.pc'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages'
+[1.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('artscript_interfaces', 'pythonpath')
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/pythonpath.ps1'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/pythonpath.dsv'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/pythonpath.sh'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/package.ps1'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/package.dsv'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/package.sh'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/package.bash'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/package.zsh'
+[1.099s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/colcon-core/packages/artscript_interfaces)
+[1.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(artscript_interfaces)
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces' for CMake module files
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces' for CMake config files
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('artscript_interfaces', 'cmake_prefix_path')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/cmake_prefix_path.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/cmake_prefix_path.dsv'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/cmake_prefix_path.sh'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib'
+[1.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('artscript_interfaces', 'ld_library_path_lib')
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/ld_library_path_lib.ps1'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/ld_library_path_lib.dsv'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/ld_library_path_lib.sh'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/bin'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/pkgconfig/artscript_interfaces.pc'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages'
+[1.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('artscript_interfaces', 'pythonpath')
+[1.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/pythonpath.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/pythonpath.dsv'
+[1.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/hook/pythonpath.sh'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/package.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/package.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/package.sh'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/package.bash'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/artscript_interfaces/package.zsh'
+[1.194s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/share/colcon-core/packages/artscript_interfaces)
+[1.195s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/servo_pwm_pkg' with build type 'ament_python'
+[1.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_pwm_pkg', 'ament_prefix_path')
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/servo_pwm_pkg/hook/ament_prefix_path.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/servo_pwm_pkg/hook/ament_prefix_path.dsv'
+[1.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/servo_pwm_pkg/hook/ament_prefix_path.sh'
+[1.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.207s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main' for CMake module files
+[1.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_main' returned '0': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/artscript_main build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/install.log --single-version-externally-managed
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main' for CMake config files
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/bin'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib/pkgconfig/artscript_main.pc'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib/python3.8/site-packages'
+[1.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('artscript_main', 'pythonpath')
+[1.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main/hook/pythonpath.ps1'
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main/hook/pythonpath.dsv'
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main/hook/pythonpath.sh'
+[1.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(artscript_main)
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main/package.ps1'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main/package.dsv'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main/package.sh'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main/package.bash'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main/package.zsh'
+[1.247s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/colcon-core/packages/artscript_main)
+[1.266s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/imu_usb_pkg' with build type 'ament_python'
+[1.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_usb_pkg', 'ament_prefix_path')
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/share/imu_usb_pkg/hook/ament_prefix_path.ps1'
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/share/imu_usb_pkg/hook/ament_prefix_path.dsv'
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/share/imu_usb_pkg/hook/ament_prefix_path.sh'
+[1.269s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.272s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg' for CMake module files
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg' for CMake config files
+[1.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/camera_usb_pkg' returned '0': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_usb_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/install.log --single-version-externally-managed
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/bin'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/pkgconfig/camera_usb_pkg.pc'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages'
+[1.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_usb_pkg', 'pythonpath')
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/camera_usb_pkg/hook/pythonpath.ps1'
+[1.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/camera_usb_pkg/hook/pythonpath.dsv'
+[1.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/camera_usb_pkg/hook/pythonpath.sh'
+[1.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_usb_pkg)
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/camera_usb_pkg/package.ps1'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/camera_usb_pkg/package.dsv'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/camera_usb_pkg/package.sh'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/camera_usb_pkg/package.bash'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/camera_usb_pkg/package.zsh'
+[1.295s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/colcon-core/packages/camera_usb_pkg)
+[1.498s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/servo_pwm_pkg'
+[1.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.501s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.686s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/imu_usb_pkg'
+[1.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.688s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg' for CMake module files
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg' for CMake config files
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/bin'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/pkgconfig/mcu_usb_pkg.pc'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages'
+[1.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('mcu_usb_pkg', 'pythonpath')
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/share/mcu_usb_pkg/hook/pythonpath.ps1'
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/share/mcu_usb_pkg/hook/pythonpath.dsv'
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/share/mcu_usb_pkg/hook/pythonpath.sh'
+[1.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mcu_usb_pkg)
+[1.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/share/mcu_usb_pkg/package.ps1'
+[1.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/share/mcu_usb_pkg/package.dsv'
+[1.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/mcu_usb_pkg' returned '0': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mcu_usb_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/install.log --single-version-externally-managed
+[1.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/share/mcu_usb_pkg/package.sh'
+[1.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/share/mcu_usb_pkg/package.bash'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/share/mcu_usb_pkg/package.zsh'
+[1.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/share/colcon-core/packages/mcu_usb_pkg)
+[1.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/servo_pwm_pkg': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/servo_pwm_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/install.log --single-version-externally-managed
+[1.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/imu_usb_pkg': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib/python3.8/site-packages:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/imu_usb_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/imu_usb_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/imu_usb_pkg/install.log --single-version-externally-managed
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg' for CMake module files
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg' for CMake config files
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/bin'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/pkgconfig/servo_pwm_pkg.pc'
+[2.017s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages'
+[2.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_pwm_pkg', 'pythonpath')
+[2.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/servo_pwm_pkg/hook/pythonpath.ps1'
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/servo_pwm_pkg/hook/pythonpath.dsv'
+[2.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/servo_pwm_pkg' returned '0': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/servo_pwm_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/install.log --single-version-externally-managed
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/servo_pwm_pkg/hook/pythonpath.sh'
+[2.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_pwm_pkg)
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/servo_pwm_pkg/package.ps1'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/servo_pwm_pkg/package.dsv'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/servo_pwm_pkg/package.sh'
+[2.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/servo_pwm_pkg/package.bash'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/servo_pwm_pkg/package.zsh'
+[2.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/colcon-core/packages/servo_pwm_pkg)
+[2.099s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg' for CMake module files
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg' for CMake config files
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/bin'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib/pkgconfig/imu_usb_pkg.pc'
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib/python3.8/site-packages'
+[2.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_usb_pkg', 'pythonpath')
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/share/imu_usb_pkg/hook/pythonpath.ps1'
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/share/imu_usb_pkg/hook/pythonpath.dsv'
+[2.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/imu_usb_pkg' returned '0': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib/python3.8/site-packages:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/imu_usb_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/imu_usb_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/imu_usb_pkg/install.log --single-version-externally-managed
+[2.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/share/imu_usb_pkg/hook/pythonpath.sh'
+[2.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_usb_pkg)
+[2.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/share/imu_usb_pkg/package.ps1'
+[2.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/share/imu_usb_pkg/package.dsv'
+[2.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/share/imu_usb_pkg/package.sh'
+[2.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/share/imu_usb_pkg/package.bash'
+[2.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/share/imu_usb_pkg/package.zsh'
+[2.106s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/share/colcon-core/packages/imu_usb_pkg)
+[2.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.109s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.120s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.120s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.120s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.139s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/local_setup.ps1'
+[2.141s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/_local_setup_util_ps1.py'
+[2.143s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/setup.ps1'
+[2.146s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/local_setup.sh'
+[2.148s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/_local_setup_util_sh.py'
+[2.149s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/setup.sh'
+[2.152s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/local_setup.bash'
+[2.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/setup.bash'
+[2.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/local_setup.zsh'
+[2.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/setup.zsh'

@@ -1,0 +1,50 @@
+[0.024s] Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/strain_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/infrared_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/ARTScript_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg:/opt/ros/foxy /usr/bin/cmake /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces -DCMAKE_INSTALL_PREFIX=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces
+[0.048s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.250s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.256s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.396s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.548s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.548s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.549s]   artscript_interfaces --arguments-file
+[0.549s]   /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_adapter__arguments__artscript_interfaces.json
+[0.549s]   --output-dir
+[0.549s]   /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_adapter/artscript_interfaces
+[0.549s]   --output-file
+[0.549s]   /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_adapter/artscript_interfaces.idls)
+[0.549s]   returned error code 1:
+[0.549s] 
+[0.549s]   Traceback (most recent call last):
+[0.549s] 
+[0.550s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.550s]       return _run_code(code, main_globals, None,
+[0.550s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.550s]       exec(code, run_globals)
+[0.550s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.550s]       sys.exit(main())
+[0.550s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.550s]       abs_idl_file = convert_to_idl(
+[0.550s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.550s]       return convert_msg_to_idl(
+[0.550s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.551s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.551s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[0.551s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.551s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[0.551s]       self.base_type = BaseType(
+[0.551s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[0.551s]       raise InvalidResourceName(
+[0.551s] 
+[0.551s]   rosidl_adapter.parser.InvalidResourceName: 'Infrared_Strain' is an invalid
+[0.551s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.551s] 
+[0.551s] Call Stack (most recent call first):
+[0.552s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.552s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.552s] 
+[0.552s] 
+[0.552s] -- Configuring incomplete, errors occurred!
+[0.552s] See also "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles/CMakeOutput.log".
+[0.558s] Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/strain_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/infrared_gpio_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/ARTScript_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg:/opt/ros/foxy /usr/bin/cmake /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces -DCMAKE_INSTALL_PREFIX=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces

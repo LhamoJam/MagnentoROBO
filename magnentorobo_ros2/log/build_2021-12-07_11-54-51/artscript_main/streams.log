@@ -1,0 +1,21 @@
+[0.722s] Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_main': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/artscript_main build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/install.log --single-version-externally-managed
+[1.050s] running egg_info
+[1.052s] writing ../../build/artscript_main/artscript_main.egg-info/PKG-INFO
+[1.053s] writing dependency_links to ../../build/artscript_main/artscript_main.egg-info/dependency_links.txt
+[1.053s] writing entry points to ../../build/artscript_main/artscript_main.egg-info/entry_points.txt
+[1.053s] writing requirements to ../../build/artscript_main/artscript_main.egg-info/requires.txt
+[1.054s] writing top-level names to ../../build/artscript_main/artscript_main.egg-info/top_level.txt
+[1.117s] reading manifest file '../../build/artscript_main/artscript_main.egg-info/SOURCES.txt'
+[1.117s] writing manifest file '../../build/artscript_main/artscript_main.egg-info/SOURCES.txt'
+[1.117s] running build
+[1.117s] running build_py
+[1.117s] running install
+[1.117s] running install_lib
+[1.119s] running install_data
+[1.120s] copying launch/robo_start.launch.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main
+[1.120s] running install_egg_info
+[1.122s] removing '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib/python3.8/site-packages/artscript_main-0.0.0-py3.8.egg-info' (and everything under it)
+[1.123s] Copying ../../build/artscript_main/artscript_main.egg-info to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib/python3.8/site-packages/artscript_main-0.0.0-py3.8.egg-info
+[1.128s] running install_scripts
+[1.149s] writing list of installed files to '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/install.log'
+[1.485s] Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_main' returned '0': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/artscript_main build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/install.log --single-version-externally-managed

@@ -1,0 +1,41 @@
+[0.605s] Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/camera_usb_pkg': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_usb_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/install.log --single-version-externally-managed
+[0.807s] running egg_info
+[0.807s] creating ../../build/camera_usb_pkg/camera_usb_pkg.egg-info
+[0.807s] writing ../../build/camera_usb_pkg/camera_usb_pkg.egg-info/PKG-INFO
+[0.808s] writing dependency_links to ../../build/camera_usb_pkg/camera_usb_pkg.egg-info/dependency_links.txt
+[0.808s] writing entry points to ../../build/camera_usb_pkg/camera_usb_pkg.egg-info/entry_points.txt
+[0.808s] writing requirements to ../../build/camera_usb_pkg/camera_usb_pkg.egg-info/requires.txt
+[0.808s] writing top-level names to ../../build/camera_usb_pkg/camera_usb_pkg.egg-info/top_level.txt
+[0.809s] writing manifest file '../../build/camera_usb_pkg/camera_usb_pkg.egg-info/SOURCES.txt'
+[0.836s] reading manifest file '../../build/camera_usb_pkg/camera_usb_pkg.egg-info/SOURCES.txt'
+[0.837s] writing manifest file '../../build/camera_usb_pkg/camera_usb_pkg.egg-info/SOURCES.txt'
+[0.838s] running build
+[0.838s] running build_py
+[0.838s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build
+[0.838s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build/lib
+[0.839s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build/lib/camera_usb_pkg
+[0.839s] copying camera_usb_pkg/__init__.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build/lib/camera_usb_pkg
+[0.839s] copying camera_usb_pkg/camera_pub.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build/lib/camera_usb_pkg
+[0.840s] copying camera_usb_pkg/camera_sub.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build/lib/camera_usb_pkg
+[0.840s] running install
+[0.841s] running install_lib
+[0.842s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages/camera_usb_pkg
+[0.842s] copying /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build/lib/camera_usb_pkg/__init__.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages/camera_usb_pkg
+[0.843s] copying /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build/lib/camera_usb_pkg/camera_pub.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages/camera_usb_pkg
+[0.843s] copying /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build/lib/camera_usb_pkg/camera_sub.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages/camera_usb_pkg
+[0.845s] byte-compiling /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages/camera_usb_pkg/__init__.py to __init__.cpython-38.pyc
+[0.847s] byte-compiling /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages/camera_usb_pkg/camera_pub.py to camera_pub.cpython-38.pyc
+[0.848s] byte-compiling /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages/camera_usb_pkg/camera_sub.py to camera_sub.cpython-38.pyc
+[0.848s] running install_data
+[0.849s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/ament_index
+[0.850s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/ament_index/resource_index
+[0.850s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/ament_index/resource_index/packages
+[0.850s] copying resource/camera_usb_pkg -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/ament_index/resource_index/packages
+[0.851s] copying package.xml -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/share/camera_usb_pkg
+[0.851s] running install_egg_info
+[0.852s] Copying ../../build/camera_usb_pkg/camera_usb_pkg.egg-info to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages/camera_usb_pkg-0.0.0-py3.8.egg-info
+[0.854s] running install_scripts
+[0.873s] Installing camera_pub_node script to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/camera_usb_pkg
+[0.873s] Installing camera_sub_node script to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/camera_usb_pkg
+[0.873s] writing list of installed files to '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/install.log'
+[0.899s] Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/camera_usb_pkg' returned '0': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_usb_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/camera_usb_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/camera_usb_pkg/install.log --single-version-externally-managed

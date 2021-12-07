@@ -1,0 +1,4 @@
+[console_scripts]
+mcu_pub_node = mcu_usb_pkg.mcu_pub:main
+mcu_sub_node = mcu_usb_pkg.mcu_sub:main
+

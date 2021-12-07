@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/artscript_main/artscript_main.egg-info
+writing ../../build/artscript_main/artscript_main.egg-info/PKG-INFO
+writing dependency_links to ../../build/artscript_main/artscript_main.egg-info/dependency_links.txt
+writing entry points to ../../build/artscript_main/artscript_main.egg-info/entry_points.txt
+writing requirements to ../../build/artscript_main/artscript_main.egg-info/requires.txt
+writing top-level names to ../../build/artscript_main/artscript_main.egg-info/top_level.txt
+writing manifest file '../../build/artscript_main/artscript_main.egg-info/SOURCES.txt'
+reading manifest file '../../build/artscript_main/artscript_main.egg-info/SOURCES.txt'
+writing manifest file '../../build/artscript_main/artscript_main.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/build
+creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/build/lib
+creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/build/lib/artscript_main
+copying artscript_main/__init__.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/build/lib/artscript_main
+running install
+running install_lib
+creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib/python3.8/site-packages/artscript_main
+copying /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/build/lib/artscript_main/__init__.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib/python3.8/site-packages/artscript_main
+byte-compiling /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib/python3.8/site-packages/artscript_main/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/ament_index
+creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/ament_index/resource_index
+creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/ament_index/resource_index/packages
+copying resource/artscript_main -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/ament_index/resource_index/packages
+copying package.xml -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main
+copying launch/robo_start.launch.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/share/artscript_main
+running install_egg_info
+Copying ../../build/artscript_main/artscript_main.egg-info to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_main/lib/python3.8/site-packages/artscript_main-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_main/install.log'

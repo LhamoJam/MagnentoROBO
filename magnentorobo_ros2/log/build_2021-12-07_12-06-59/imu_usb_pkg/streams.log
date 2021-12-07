@@ -1,0 +1,25 @@
+[0.245s] Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/imu_usb_pkg': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib/python3.8/site-packages:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/imu_usb_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/imu_usb_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/imu_usb_pkg/install.log --single-version-externally-managed
+[0.426s] running egg_info
+[0.426s] writing ../../build/imu_usb_pkg/imu_usb_pkg.egg-info/PKG-INFO
+[0.427s] writing dependency_links to ../../build/imu_usb_pkg/imu_usb_pkg.egg-info/dependency_links.txt
+[0.427s] writing entry points to ../../build/imu_usb_pkg/imu_usb_pkg.egg-info/entry_points.txt
+[0.427s] writing requirements to ../../build/imu_usb_pkg/imu_usb_pkg.egg-info/requires.txt
+[0.427s] writing top-level names to ../../build/imu_usb_pkg/imu_usb_pkg.egg-info/top_level.txt
+[0.449s] reading manifest file '../../build/imu_usb_pkg/imu_usb_pkg.egg-info/SOURCES.txt'
+[0.449s] writing manifest file '../../build/imu_usb_pkg/imu_usb_pkg.egg-info/SOURCES.txt'
+[0.449s] running build
+[0.449s] running build_py
+[0.450s] copying imu_usb_pkg/imu_pub.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/imu_usb_pkg/build/lib/imu_usb_pkg
+[0.450s] running install
+[0.450s] running install_lib
+[0.451s] copying /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/imu_usb_pkg/build/lib/imu_usb_pkg/imu_pub.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib/python3.8/site-packages/imu_usb_pkg
+[0.452s] byte-compiling /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib/python3.8/site-packages/imu_usb_pkg/imu_pub.py to imu_pub.cpython-38.pyc
+[0.454s] running install_data
+[0.454s] running install_egg_info
+[0.455s] removing '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib/python3.8/site-packages/imu_usb_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.455s] Copying ../../build/imu_usb_pkg/imu_usb_pkg.egg-info to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib/python3.8/site-packages/imu_usb_pkg-0.0.0-py3.8.egg-info
+[0.456s] running install_scripts
+[0.469s] Installing imu_pub_node script to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib/imu_usb_pkg
+[0.469s] Installing imu_sub_node script to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib/imu_usb_pkg
+[0.469s] writing list of installed files to '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/imu_usb_pkg/install.log'
+[0.486s] Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/imu_usb_pkg' returned '0': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg/lib/python3.8/site-packages:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/imu_usb_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/imu_usb_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/imu_usb_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/imu_usb_pkg/install.log --single-version-externally-managed

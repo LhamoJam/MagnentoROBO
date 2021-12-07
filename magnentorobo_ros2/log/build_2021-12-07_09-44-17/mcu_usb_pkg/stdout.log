@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/requires.txt
+writing top-level names to ../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/top_level.txt
+reading manifest file '../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mcu_usb_pkg/mcu_pub.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/build/lib/mcu_usb_pkg
+copying mcu_usb_pkg/mcu_sub.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/build/lib/mcu_usb_pkg
+running install
+running install_lib
+copying /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/build/lib/mcu_usb_pkg/mcu_pub.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages/mcu_usb_pkg
+copying /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/build/lib/mcu_usb_pkg/mcu_sub.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages/mcu_usb_pkg
+byte-compiling /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages/mcu_usb_pkg/mcu_pub.py to mcu_pub.cpython-38.pyc
+byte-compiling /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages/mcu_usb_pkg/mcu_sub.py to mcu_sub.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages/mcu_usb_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/mcu_usb_pkg/mcu_usb_pkg.egg-info to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages/mcu_usb_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing mcu_pub_node script to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/mcu_usb_pkg
+Installing mcu_sub_node script to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/mcu_usb_pkg
+writing list of installed files to '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/mcu_usb_pkg/install.log'
