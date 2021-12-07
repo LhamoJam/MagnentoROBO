@@ -9,7 +9,8 @@ setup.py
 ../../build/artscript_main/artscript_main.egg-info/top_level.txt
 ../../build/artscript_main/artscript_main.egg-info/zip-safe
 artscript_main/__init__.py
-launch/robo_start.launch.py
+launch/robo_start_local.launch.py
+launch/robo_start_remote.launch.py
 resource/artscript_main
 test/test_copyright.py
 test/test_flake8.py

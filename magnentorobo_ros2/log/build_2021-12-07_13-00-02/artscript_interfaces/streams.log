@@ -1,0 +1,26 @@
+[0.047s] Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces -- -j4 -l4
+[0.767s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.767s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.767s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.767s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.767s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.767s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.767s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.767s] -- Configuring incomplete, errors occurred!
+[0.767s] See also "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles/CMakeOutput.log".
+[0.769s] CMake Warning (dev) at CMakeLists.txt:26:
+[0.769s]   Syntax Warning in cmake code at column 16
+[0.769s] 
+[0.769s]   Argument not separated from preceding token by whitespace.
+[0.769s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.769s] 
+[0.769s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.769s]   rosidl_generate_interfaces() the passed file ',' doesn't exist relative to
+[0.769s]   the CMAKE_CURRENT_SOURCE_DIR
+[0.769s]   '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces'
+[0.769s] Call Stack (most recent call first):
+[0.769s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.769s] 
+[0.769s] 
+[0.769s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[0.791s] Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces -- -j4 -l4

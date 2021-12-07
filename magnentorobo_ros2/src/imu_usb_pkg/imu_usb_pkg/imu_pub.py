@@ -152,7 +152,7 @@ class IMU():
 class ARTScriptNode(Node):
     def __init__(self):
         super().__init__("imu_pub") # name for node
-        self.declare_parameter("imu_pub_port",'/dev/ttyUSB1')
+        self.declare_parameter("imu_pub_port",'/dev/ttyUSB0')
         self.declare_parameter("imu_pub_baud",9600)
         self.port = self.get_parameter('imu_pub_port').get_parameter_value().string_value
         self.baud = self.get_parameter('imu_pub_baud').get_parameter_value().integer_value

@@ -1,11 +1,13 @@
 // generated from rosidl_adapter/resource/msg.idl.em
-// with input from artscript_interfaces/msg/InfraredStrain.msg
+// with input from artscript_interfaces/msg/Infraredstrain.msg
 // generated code does not contain a copyright notice
 
 
 module artscript_interfaces {
   module msg {
-    struct InfraredStrain {
+    @verbatim (language="comment", text=
+      " artscript_mcu for magnentorobo")
+    struct Infraredstrain {
       @verbatim (language="comment", text=
         " infrared vlaue |cm")
       int64 infrared;
