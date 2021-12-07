@@ -9,6 +9,8 @@ setup.py
 ../../build/imu_usb_pkg/imu_usb_pkg.egg-info/top_level.txt
 ../../build/imu_usb_pkg/imu_usb_pkg.egg-info/zip-safe
 imu_usb_pkg/__init__.py
+imu_usb_pkg/imu_get.py
+imu_usb_pkg/imu_obj.py
 imu_usb_pkg/imu_pub.py
 imu_usb_pkg/imu_sub.py
 resource/imu_usb_pkg
