@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "servo_service_node = servo_pwm_pkg.servo_service:main",
         ],
     },
 )

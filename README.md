@@ -1,23 +1,26 @@
 # MagnentoROBO
 ROS2系统电磁铁六足机器人
 BY: ARTScript 微信: artscript
+**转载和参考请注明出处ARTScript谢谢**
 # 安装
 ## ROS2 install
-+ JetsonTX2: dashing
-+ Server: 什么版本都可以
++ Client: JetsonTX2 ros-dashing
++ Server: ros2任何版本都行,按照你的系统来
 
 ## OPENCV install
 
 ## *[重要] 搭建虚拟局域网VPN *
 远程使用ROS2必须搭建!!!
-### Zerotier install
++ 搭建自己喜欢的虚拟专用网络
 
 ### 配置ROS remote环境
 
+
 ### cyclonedds
 
+
 # 配置ROS2包
-## ARTScript_pkg
+## artscript_interfaces
 
 ## servo_pwm_pkg
 

@@ -6,7 +6,7 @@ import serial
 
 
 class ServoDriver():
-    def __init__(self, port, baud) -> None:
+    def __init__(self) -> None:
         self.ser = serial.Serial(
             port="/dev/ttyTHS2",
             baudrate=115200,
@@ -16,17 +16,10 @@ class ServoDriver():
         )
         time.sleep(1)
 
-    def DataRead(self):
-        char = str(self.ser.readline(), "utf-8").strip('\r\n')
-        if char != '':
-            data = list(map(eval, char.split('&')))
-            return data
-
-
 class ARTScriptNode(Node):
     def __init__(self):
         super().__init__("servo_service")  # name for node
-        self.ServoDriver = ServoDriver(self.port, self.baud)
+        self.ServoDriver = ServoDriver()
 
         self.get_logger().info("ServoDriver start...")
 
