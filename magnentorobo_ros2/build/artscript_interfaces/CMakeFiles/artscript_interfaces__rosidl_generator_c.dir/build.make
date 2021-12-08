@@ -72,6 +72,8 @@ rosidl_generator_c/artscript_interfaces/msg/imu.h: /opt/ros/foxy/share/rosidl_ge
 rosidl_generator_c/artscript_interfaces/msg/imu.h: /opt/ros/foxy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/artscript_interfaces/msg/imu.h: rosidl_adapter/artscript_interfaces/msg/Imu.idl
 rosidl_generator_c/artscript_interfaces/msg/imu.h: rosidl_adapter/artscript_interfaces/msg/Infraredstrain.idl
+rosidl_generator_c/artscript_interfaces/msg/imu.h: rosidl_adapter/artscript_interfaces/srv/ServoGroup.idl
+rosidl_generator_c/artscript_interfaces/msg/imu.h: rosidl_adapter/artscript_interfaces/srv/ServoSingle.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_c__arguments.json
 
@@ -96,11 +98,41 @@ rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__struct.h: ros
 rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__type_support.h: rosidl_generator_c/artscript_interfaces/msg/imu.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__type_support.h
 
+rosidl_generator_c/artscript_interfaces/srv/servo_group.h: rosidl_generator_c/artscript_interfaces/msg/imu.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/srv/servo_group.h
+
+rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.h: rosidl_generator_c/artscript_interfaces/msg/imu.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.h
+
+rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__struct.h: rosidl_generator_c/artscript_interfaces/msg/imu.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__struct.h
+
+rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__type_support.h: rosidl_generator_c/artscript_interfaces/msg/imu.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__type_support.h
+
+rosidl_generator_c/artscript_interfaces/srv/servo_single.h: rosidl_generator_c/artscript_interfaces/msg/imu.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/srv/servo_single.h
+
+rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.h: rosidl_generator_c/artscript_interfaces/msg/imu.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.h
+
+rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__struct.h: rosidl_generator_c/artscript_interfaces/msg/imu.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__struct.h
+
+rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__type_support.h: rosidl_generator_c/artscript_interfaces/msg/imu.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__type_support.h
+
 rosidl_generator_c/artscript_interfaces/msg/detail/imu__functions.c: rosidl_generator_c/artscript_interfaces/msg/imu.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/msg/detail/imu__functions.c
 
 rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__functions.c: rosidl_generator_c/artscript_interfaces/msg/imu.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__functions.c
+
+rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c: rosidl_generator_c/artscript_interfaces/msg/imu.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c
+
+rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c: rosidl_generator_c/artscript_interfaces/msg/imu.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c
 
 CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/msg/detail/imu__functions.c.o: CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/msg/detail/imu__functions.c.o: rosidl_generator_c/artscript_interfaces/msg/detail/imu__functions.c
@@ -128,21 +160,51 @@ CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artsc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__functions.c -o CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__functions.c.s
 
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c.o: CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c.o: rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c.o   -c /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c
+
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c > CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c.i
+
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c -o CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c.s
+
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c.o: CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c.o: rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c.o   -c /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c
+
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c > CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c.i
+
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c -o CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c.s
+
 # Object files for target artscript_interfaces__rosidl_generator_c
 artscript_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/msg/detail/imu__functions.c.o" \
-"CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__functions.c.o"
+"CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__functions.c.o" \
+"CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c.o" \
+"CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c.o"
 
 # External object files for target artscript_interfaces__rosidl_generator_c
 artscript_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libartscript_interfaces__rosidl_generator_c.so: CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/msg/detail/imu__functions.c.o
 libartscript_interfaces__rosidl_generator_c.so: CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__functions.c.o
+libartscript_interfaces__rosidl_generator_c.so: CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c.o
+libartscript_interfaces__rosidl_generator_c.so: CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c.o
 libartscript_interfaces__rosidl_generator_c.so: CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/build.make
 libartscript_interfaces__rosidl_generator_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libartscript_interfaces__rosidl_generator_c.so: /opt/ros/foxy/lib/librcutils.so
 libartscript_interfaces__rosidl_generator_c.so: CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libartscript_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libartscript_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,8 +224,18 @@ CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator
 CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__functions.h
 CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__struct.h
 CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__type_support.h
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/srv/servo_group.h
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.h
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__struct.h
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__type_support.h
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/srv/servo_single.h
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.h
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__struct.h
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__type_support.h
 CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/msg/detail/imu__functions.c
 CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/msg/detail/infraredstrain__functions.c
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/srv/detail/servo_group__functions.c
+CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/artscript_interfaces/srv/detail/servo_single__functions.c
 	cd /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/artscript_interfaces__rosidl_generator_c.dir/depend
 

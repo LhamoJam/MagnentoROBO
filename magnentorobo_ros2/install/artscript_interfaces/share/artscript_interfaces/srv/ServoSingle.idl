@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from artscript_interfaces/srv/ServoSingle.srv
+// generated code does not contain a copyright notice
+
+
+module artscript_interfaces {
+  module srv {
+    struct ServoSingle_Request {
+      int32 servo_id;
+
+      int32 servo_angle;
+
+      int32 servo_speed;
+    };
+    struct ServoSingle_Response {
+      boolean move_status;
+    };
+  };
+};

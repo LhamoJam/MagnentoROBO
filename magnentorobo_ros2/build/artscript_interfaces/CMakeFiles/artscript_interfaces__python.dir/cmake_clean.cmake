@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_imu_s.c.o"
   "CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c.o"
+  "CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.o"
+  "CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.o"
   "rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.pdb"
   "rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so"
 )

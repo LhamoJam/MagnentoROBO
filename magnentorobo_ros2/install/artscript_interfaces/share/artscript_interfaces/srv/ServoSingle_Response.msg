@@ -1,0 +1,2 @@
+
+bool move_status

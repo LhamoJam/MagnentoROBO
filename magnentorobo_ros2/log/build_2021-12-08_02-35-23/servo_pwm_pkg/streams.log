@@ -1,0 +1,36 @@
+[0.515s] Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/servo_pwm_pkg': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/servo_pwm_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/install.log --single-version-externally-managed
+[0.909s] running egg_info
+[0.910s] creating ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info
+[0.910s] writing ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/PKG-INFO
+[0.911s] writing dependency_links to ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/dependency_links.txt
+[0.911s] writing entry points to ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/entry_points.txt
+[0.911s] writing requirements to ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/requires.txt
+[0.911s] writing top-level names to ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/top_level.txt
+[0.912s] writing manifest file '../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/SOURCES.txt'
+[0.955s] reading manifest file '../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/SOURCES.txt'
+[0.958s] writing manifest file '../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info/SOURCES.txt'
+[0.961s] running build
+[0.963s] running build_py
+[0.965s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build
+[0.967s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build/lib
+[0.968s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build/lib/servo_pwm_pkg
+[0.969s] copying servo_pwm_pkg/__init__.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build/lib/servo_pwm_pkg
+[0.971s] copying servo_pwm_pkg/servo_service.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build/lib/servo_pwm_pkg
+[0.972s] running install
+[0.974s] running install_lib
+[0.975s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages/servo_pwm_pkg
+[0.976s] copying /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build/lib/servo_pwm_pkg/__init__.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages/servo_pwm_pkg
+[0.977s] copying /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build/lib/servo_pwm_pkg/servo_service.py -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages/servo_pwm_pkg
+[0.978s] byte-compiling /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages/servo_pwm_pkg/__init__.py to __init__.cpython-38.pyc
+[0.980s] byte-compiling /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages/servo_pwm_pkg/servo_service.py to servo_service.cpython-38.pyc
+[0.982s] running install_data
+[0.983s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/ament_index
+[0.984s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/ament_index/resource_index
+[0.985s] creating /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/ament_index/resource_index/packages
+[0.985s] copying resource/servo_pwm_pkg -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/ament_index/resource_index/packages
+[0.985s] copying package.xml -> /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/share/servo_pwm_pkg
+[0.986s] running install_egg_info
+[0.989s] Copying ../../build/servo_pwm_pkg/servo_pwm_pkg.egg-info to /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages/servo_pwm_pkg-0.0.0-py3.8.egg-info
+[0.991s] running install_scripts
+[1.015s] writing list of installed files to '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/install.log'
+[1.044s] Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/servo_pwm_pkg' returned '0': PYTHONPATH=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg/lib/python3.8/site-packages:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces/lib/python3.8/site-packages:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/servo_pwm_pkg build --build-base /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/build install --prefix /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/servo_pwm_pkg --record /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/servo_pwm_pkg/install.log --single-version-externally-managed

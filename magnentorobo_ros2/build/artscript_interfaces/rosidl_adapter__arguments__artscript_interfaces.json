@@ -2,6 +2,8 @@
   "package_name": "artscript_interfaces",
   "non_idl_tuples": [
     "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces:msg/Imu.msg",
-    "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces:msg/Infraredstrain.msg"
+    "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces:msg/Infraredstrain.msg",
+    "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces:srv/ServoGroup.srv",
+    "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces:srv/ServoSingle.srv"
   ]
 }

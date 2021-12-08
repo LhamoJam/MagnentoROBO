@@ -67,17 +67,31 @@ rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_t
 rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h: /opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h: rosidl_adapter/artscript_interfaces/msg/Imu.idl
 rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h: rosidl_adapter/artscript_interfaces/msg/Infraredstrain.idl
+rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h: rosidl_adapter/artscript_interfaces/srv/ServoGroup.idl
+rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h: rosidl_adapter/artscript_interfaces/srv/ServoSingle.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_introspection_c__arguments.json
 
 rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infraredstrain__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infraredstrain__rosidl_typesupport_introspection_c.h
 
+rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__rosidl_typesupport_introspection_c.h
+
+rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__type_support.c: rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__type_support.c
 
 rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infraredstrain__type_support.c: rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infraredstrain__type_support.c
+
+rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c: rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c
+
+rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c: rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c
 
 CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__type_support.c.o: CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__type_support.c.o: rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__type_support.c
@@ -105,23 +119,53 @@ CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_t
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infraredstrain__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infraredstrain__type_support.c -o CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infraredstrain__type_support.c.s
 
+CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c.o: CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c.o: rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c.o   -c /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c
+
+CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c > CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c.i
+
+CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c -o CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c.s
+
+CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c.o: CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c.o: rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c.o   -c /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c
+
+CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c > CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c.i
+
+CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c -o CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c.s
+
 # Object files for target artscript_interfaces__rosidl_typesupport_introspection_c
 artscript_interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__type_support.c.o" \
-"CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infraredstrain__type_support.c.o"
+"CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infraredstrain__type_support.c.o" \
+"CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c.o" \
+"CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c.o"
 
 # External object files for target artscript_interfaces__rosidl_typesupport_introspection_c
 artscript_interfaces__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libartscript_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__type_support.c.o
 libartscript_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infraredstrain__type_support.c.o
+libartscript_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c.o
+libartscript_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c.o
 libartscript_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/build.make
 libartscript_interfaces__rosidl_typesupport_introspection_c.so: libartscript_interfaces__rosidl_generator_c.so
 libartscript_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
 libartscript_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libartscript_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/foxy/lib/librcutils.so
 libartscript_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libartscript_interfaces__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libartscript_interfaces__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,8 +179,12 @@ CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
 CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infraredstrain__rosidl_typesupport_introspection_c.h
+CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__rosidl_typesupport_introspection_c.h
+CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__rosidl_typesupport_introspection_c.h
 CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/imu__type_support.c
 CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/artscript_interfaces/msg/detail/infraredstrain__type_support.c
+CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_group__type_support.c
+CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/artscript_interfaces/srv/detail/servo_single__type_support.c
 	cd /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/artscript_interfaces__rosidl_typesupport_introspection_c.dir/depend
 

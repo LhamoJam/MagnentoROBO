@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from artscript_interfaces/srv/ServoGroup.srv
+// generated code does not contain a copyright notice
+
+
+module artscript_interfaces {
+  module srv {
+    struct ServoGroup_Request {
+      @verbatim (language="comment", text=
+        " servo move command")
+      sequence<string> command_list;
+
+      @verbatim (language="comment", text=
+        " servo move speed")
+      int32 servo_speed;
+    };
+    struct ServoGroup_Response {
+      boolean move_status;
+    };
+  };
+};

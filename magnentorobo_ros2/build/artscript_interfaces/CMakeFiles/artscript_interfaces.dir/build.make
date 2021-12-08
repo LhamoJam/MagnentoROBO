@@ -55,6 +55,12 @@ include CMakeFiles/artscript_interfaces.dir/progress.make
 
 CMakeFiles/artscript_interfaces: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces/msg/Imu.msg
 CMakeFiles/artscript_interfaces: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces/msg/Infraredstrain.msg
+CMakeFiles/artscript_interfaces: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces/srv/ServoGroup.srv
+CMakeFiles/artscript_interfaces: rosidl_cmake/srv/ServoGroup_Request.msg
+CMakeFiles/artscript_interfaces: rosidl_cmake/srv/ServoGroup_Response.msg
+CMakeFiles/artscript_interfaces: /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces/srv/ServoSingle.srv
+CMakeFiles/artscript_interfaces: rosidl_cmake/srv/ServoSingle_Request.msg
+CMakeFiles/artscript_interfaces: rosidl_cmake/srv/ServoSingle_Response.msg
 
 
 artscript_interfaces: CMakeFiles/artscript_interfaces

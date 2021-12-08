@@ -1,8 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000121] (-) JobUnselected: {'identifier': 'artscript_interfaces'}
-[0.000148] (-) JobUnselected: {'identifier': 'artscript_main'}
-[0.000195] (-) JobUnselected: {'identifier': 'camera_usb_pkg'}
-[0.000217] (-) JobUnselected: {'identifier': 'imu_usb_pkg'}
-[0.000231] (-) JobUnselected: {'identifier': 'mcu_usb_pkg'}
-[0.000245] (-) JobUnselected: {'identifier': 'servo_pwm_pkg'}
-[0.000258] (-) EventReactorShutdown: {}

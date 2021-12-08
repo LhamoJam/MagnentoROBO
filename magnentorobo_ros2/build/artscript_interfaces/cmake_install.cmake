@@ -259,6 +259,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/artscript_interfaces/srv" TYPE DIRECTORY FILES "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py/artscript_interfaces/srv/" REGEX "/[^/]*\\.py$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/artscript_interfaces/artscript_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/artscript_interfaces/artscript_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so")
     file(RPATH_CHECK
@@ -359,11 +363,43 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/artscript_interfaces/srv" TYPE FILE FILES "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_adapter/artscript_interfaces/srv/ServoGroup.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/artscript_interfaces/srv" TYPE FILE FILES "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_adapter/artscript_interfaces/srv/ServoSingle.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/artscript_interfaces/msg" TYPE FILE FILES "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces/msg/Imu.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/artscript_interfaces/msg" TYPE FILE FILES "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces/msg/Infraredstrain.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/artscript_interfaces/srv" TYPE FILE FILES "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces/srv/ServoGroup.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/artscript_interfaces/srv" TYPE FILE FILES "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_cmake/srv/ServoGroup_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/artscript_interfaces/srv" TYPE FILE FILES "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_cmake/srv/ServoGroup_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/artscript_interfaces/srv" TYPE FILE FILES "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces/srv/ServoSingle.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/artscript_interfaces/srv" TYPE FILE FILES "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_cmake/srv/ServoSingle_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/artscript_interfaces/srv" TYPE FILE FILES "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_cmake/srv/ServoSingle_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

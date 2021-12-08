@@ -58,9 +58,14 @@ artscript_interfaces__py/CMakeFiles/artscript_interfaces__py: rosidl_generator_p
 artscript_interfaces__py/CMakeFiles/artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_c.c
 artscript_interfaces__py/CMakeFiles/artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/msg/_imu.py
 artscript_interfaces__py/CMakeFiles/artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/msg/_infraredstrain.py
+artscript_interfaces__py/CMakeFiles/artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/srv/_servo_group.py
+artscript_interfaces__py/CMakeFiles/artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/srv/_servo_single.py
 artscript_interfaces__py/CMakeFiles/artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/msg/__init__.py
+artscript_interfaces__py/CMakeFiles/artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/srv/__init__.py
 artscript_interfaces__py/CMakeFiles/artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/msg/_imu_s.c
 artscript_interfaces__py/CMakeFiles/artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c
+artscript_interfaces__py/CMakeFiles/artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c
+artscript_interfaces__py/CMakeFiles/artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c
 
 
 rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -78,6 +83,8 @@ rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_types
 rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/artscript_interfaces/msg/Imu.idl
 rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/artscript_interfaces/msg/Infraredstrain.idl
+rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/artscript_interfaces/srv/ServoGroup.idl
+rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/artscript_interfaces/srv/ServoSingle.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/artscript_interfaces__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -93,8 +100,17 @@ rosidl_generator_py/artscript_interfaces/msg/_imu.py: rosidl_generator_py/artscr
 rosidl_generator_py/artscript_interfaces/msg/_infraredstrain.py: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/artscript_interfaces/msg/_infraredstrain.py
 
+rosidl_generator_py/artscript_interfaces/srv/_servo_group.py: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/artscript_interfaces/srv/_servo_group.py
+
+rosidl_generator_py/artscript_interfaces/srv/_servo_single.py: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/artscript_interfaces/srv/_servo_single.py
+
 rosidl_generator_py/artscript_interfaces/msg/__init__.py: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/artscript_interfaces/msg/__init__.py
+
+rosidl_generator_py/artscript_interfaces/srv/__init__.py: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/artscript_interfaces/srv/__init__.py
 
 rosidl_generator_py/artscript_interfaces/msg/_imu_s.c: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/artscript_interfaces/msg/_imu_s.c
@@ -102,15 +118,26 @@ rosidl_generator_py/artscript_interfaces/msg/_imu_s.c: rosidl_generator_py/artsc
 rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c
 
+rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c
+
+rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c
+
 artscript_interfaces__py: artscript_interfaces__py/CMakeFiles/artscript_interfaces__py
 artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/_artscript_interfaces_s.ep.rosidl_typesupport_c.c
 artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/msg/_imu.py
 artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/msg/_infraredstrain.py
+artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/srv/_servo_group.py
+artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/srv/_servo_single.py
 artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/msg/__init__.py
+artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/srv/__init__.py
 artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/msg/_imu_s.c
 artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c
+artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c
+artscript_interfaces__py: rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c
 artscript_interfaces__py: artscript_interfaces__py/CMakeFiles/artscript_interfaces__py.dir/build.make
 
 .PHONY : artscript_interfaces__py

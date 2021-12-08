@@ -67,6 +67,8 @@ rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu
 rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp: /opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp: rosidl_adapter/artscript_interfaces/msg/Imu.idl
 rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp: rosidl_adapter/artscript_interfaces/msg/Infraredstrain.idl
+rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp: rosidl_adapter/artscript_interfaces/srv/ServoGroup.idl
+rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp: rosidl_adapter/artscript_interfaces/srv/ServoSingle.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_fastrtps_cpp__arguments.json
 
@@ -78,6 +80,18 @@ rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/inf
 
 rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/infraredstrain__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/infraredstrain__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/servo_group__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/servo_group__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/servo_single__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/servo_single__rosidl_typesupport_fastrtps_cpp.hpp
 
 CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp.o: CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make
 CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp
@@ -105,16 +119,46 @@ CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_type
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/infraredstrain__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/infraredstrain__type_support.cpp -o CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/infraredstrain__type_support.cpp.s
 
+CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp.o: CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp.o -c /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp
+
+CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp > CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp.i
+
+CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp -o CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp.s
+
+CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp.o: CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp.o -c /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp
+
+CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp > CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp.i
+
+CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp -o CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp.s
+
 # Object files for target artscript_interfaces__rosidl_typesupport_fastrtps_cpp
 artscript_interfaces__rosidl_typesupport_fastrtps_cpp_OBJECTS = \
 "CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp.o" \
-"CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/infraredstrain__type_support.cpp.o"
+"CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/infraredstrain__type_support.cpp.o" \
+"CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp.o" \
+"CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp.o"
 
 # External object files for target artscript_interfaces__rosidl_typesupport_fastrtps_cpp
 artscript_interfaces__rosidl_typesupport_fastrtps_cpp_EXTERNAL_OBJECTS =
 
 libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp.o
 libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/infraredstrain__type_support.cpp.o
+libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp.o
+libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp.o
 libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make
 libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/librmw.so
 libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
@@ -128,7 +172,7 @@ libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/x86_64-lin
 libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/x86_64-linux-gnu/libssl.so
 libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
 libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libartscript_interfaces__rosidl_typesupport_fastrtps_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,6 +188,10 @@ CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: ros
 CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/dds_fastrtps/infraredstrain__type_support.cpp
 CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/msg/detail/infraredstrain__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_group__type_support.cpp
+CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/servo_group__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/dds_fastrtps/servo_single__type_support.cpp
+CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/artscript_interfaces/srv/detail/servo_single__rosidl_typesupport_fastrtps_cpp.hpp
 	cd /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/artscript_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend
 

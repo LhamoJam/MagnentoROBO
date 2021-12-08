@@ -1,0 +1,53 @@
+[0.058s] Invoking command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg:/opt/ros/foxy /usr/bin/cmake /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces -DCMAKE_INSTALL_PREFIX=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces
+[0.092s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.127s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.128s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.327s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.329s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.332s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.511s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.693s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.693s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.693s]   artscript_interfaces --arguments-file
+[0.693s]   /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_adapter__arguments__artscript_interfaces.json
+[0.693s]   --output-dir
+[0.693s]   /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_adapter/artscript_interfaces
+[0.694s]   --output-file
+[0.694s]   /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_adapter/artscript_interfaces.idls)
+[0.694s]   returned error code 1:
+[0.694s] 
+[0.694s]   Traceback (most recent call last):
+[0.694s] 
+[0.694s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.694s]       return _run_code(code, main_globals, None,
+[0.695s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.695s]       exec(code, run_globals)
+[0.695s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.695s]       sys.exit(main())
+[0.695s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.695s]       abs_idl_file = convert_to_idl(
+[0.695s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.695s]       return convert_srv_to_idl(
+[0.695s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.695s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.695s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string
+[0.695s]       request_message = parse_message_string(
+[0.695s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[0.695s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.695s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[0.695s]       self.base_type = BaseType(
+[0.696s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[0.696s]       raise InvalidResourceName(
+[0.696s] 
+[0.696s]   rosidl_adapter.parser.InvalidResourceName: 'Servo_pwm_group_Request' is an
+[0.696s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.696s] 
+[0.696s] Call Stack (most recent call first):
+[0.696s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.696s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.696s] 
+[0.696s] 
+[0.696s] -- Configuring incomplete, errors occurred!
+[0.696s] See also "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles/CMakeOutput.log".
+[0.702s] Invoked command in '/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/mcu_usb_pkg:/opt/ros/foxy /usr/bin/cmake /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/src/artscript_interfaces -DCMAKE_INSTALL_PREFIX=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/install/artscript_interfaces

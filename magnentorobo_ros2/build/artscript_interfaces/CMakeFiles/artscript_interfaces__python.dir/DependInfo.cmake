@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py/artscript_interfaces/msg/_imu_s.c" "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_imu_s.c.o"
   "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c" "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c.o"
+  "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c" "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.o"
+  "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c" "/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

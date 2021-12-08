@@ -83,16 +83,46 @@ CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interf
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c -o CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c.s
 
+CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.o: CMakeFiles/artscript_interfaces__python.dir/flags.make
+CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.o: rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.o   -c /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c
+
+CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c > CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.i
+
+CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c -o CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.s
+
+CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.o: CMakeFiles/artscript_interfaces__python.dir/flags.make
+CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.o: rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.o   -c /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c
+
+CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c > CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.i
+
+CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c -o CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.s
+
 # Object files for target artscript_interfaces__python
 artscript_interfaces__python_OBJECTS = \
 "CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_imu_s.c.o" \
-"CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c.o"
+"CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c.o" \
+"CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.o" \
+"CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.o"
 
 # External object files for target artscript_interfaces__python
 artscript_interfaces__python_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so: CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_imu_s.c.o
 rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so: CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c.o
+rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so: CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c.o
+rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so: CMakeFiles/artscript_interfaces__python.dir/rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c.o
 rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so: CMakeFiles/artscript_interfaces__python.dir/build.make
 rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so: libartscript_interfaces__rosidl_generator_c.so
 rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
@@ -102,7 +132,7 @@ rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so: /op
 rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so: /opt/ros/foxy/lib/librcpputils.so
 rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so: /opt/ros/foxy/lib/librcutils.so
 rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so: CMakeFiles/artscript_interfaces__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/artscript/Desktop/WorkSpace/MagnentoROBO/magnentorobo_ros2/build/artscript_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library rosidl_generator_py/artscript_interfaces/libartscript_interfaces__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/artscript_interfaces__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

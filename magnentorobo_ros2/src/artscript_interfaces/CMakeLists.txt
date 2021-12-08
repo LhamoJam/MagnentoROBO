@@ -25,6 +25,8 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Imu.msg"
   "msg/Infraredstrain.msg"
+  "srv/ServoGroup.srv"
+  "srv/ServoSingle.srv"
 )
 
 if(BUILD_TESTING)

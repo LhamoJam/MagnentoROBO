@@ -7,6 +7,11 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/artscript_interfaces/msg/_imu_s.c"
   "../rosidl_generator_py/artscript_interfaces/msg/_infraredstrain.py"
   "../rosidl_generator_py/artscript_interfaces/msg/_infraredstrain_s.c"
+  "../rosidl_generator_py/artscript_interfaces/srv/__init__.py"
+  "../rosidl_generator_py/artscript_interfaces/srv/_servo_group.py"
+  "../rosidl_generator_py/artscript_interfaces/srv/_servo_group_s.c"
+  "../rosidl_generator_py/artscript_interfaces/srv/_servo_single.py"
+  "../rosidl_generator_py/artscript_interfaces/srv/_servo_single_s.c"
   "CMakeFiles/artscript_interfaces__py"
 )
 
