@@ -32,6 +32,18 @@ def generate_launch_description():
             ]
         ),
         launch_ros.actions.Node(
+            package='magnento_serial_pkg', executable='magnento_service', output='screen',
+            name=[launch.substitutions.LaunchConfiguration('node_prefix'), 'magnento_service_node'],
+            parameters=[
+            {"imu_pub_port": '/dev/ttyUSB0'}, 
+            {"imu_pub_baud": 9600}, 
+            ]
+        ),
+        launch_ros.actions.Node(
+            package='servo_pwm_pkg', executable='servo_service', output='screen',
+            name=[launch.substitutions.LaunchConfiguration('node_prefix'), 'servo_service_node']
+        ),
+        launch_ros.actions.Node(
             package='camera_usb_pkg', executable='camera_pub_node', output='screen',
             name=[launch.substitutions.LaunchConfiguration('node_prefix'), 'camera_pub_node'],
             parameters=[

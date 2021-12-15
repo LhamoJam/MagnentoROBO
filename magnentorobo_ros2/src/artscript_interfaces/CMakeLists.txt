@@ -27,6 +27,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Infraredstrain.msg"
   "srv/ServoGroup.srv"
   "srv/ServoSingle.srv"
+  "srv/Magnento.srv"
 )
 
 if(BUILD_TESTING)

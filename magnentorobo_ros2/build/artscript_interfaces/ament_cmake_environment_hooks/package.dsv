@@ -1,4 +1,0 @@
-source;share/artscript_interfaces/local_setup.bash
-source;share/artscript_interfaces/local_setup.dsv
-source;share/artscript_interfaces/local_setup.sh
-source;share/artscript_interfaces/local_setup.zsh
